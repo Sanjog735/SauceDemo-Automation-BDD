@@ -1,0 +1,48 @@
+# .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Test results
+TestResults/
+
+# Reports and logs
+Reports/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ExtentReports history (if any)
+ExtentReports/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# GitHub workflow logs
+.github/workflows/*.log
+
+# Rider
+.idea/
+*.sln.iml
+
+# Others
+*.swp
+*.bak
+*.tmp
+
+# Ignore secrets/configs (uncomment if needed)
+# appsettings.*.json
