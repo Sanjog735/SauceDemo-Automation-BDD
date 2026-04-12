@@ -40,23 +40,6 @@ SauceDemo-Automation-BDD
 └── README.md
 ```
 
----
-
-## 🧪 Test Scenario Example
-
-Example BDD scenario:
-
-```
-Feature: Login functionality
-
-Scenario: Successful login
-  Given user launches the browser
-  When user navigates to SauceDemo website
-  And user enters valid username and password
-  Then user should see the products page
-```
-
----
 
 ## ▶️ Running Tests Locally
 
@@ -127,13 +110,6 @@ In CI, reports are uploaded as **pipeline artifacts** for download.
 Tests are executed against the demo e-commerce application:
 
 https://www.saucedemo.com
-
-Sample credentials:
-
-```
-Username: standard_user
-Password: secret_sauce
-```
 
 ---
 
