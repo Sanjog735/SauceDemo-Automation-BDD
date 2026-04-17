@@ -18,6 +18,7 @@ namespace SauceDemoAutomation.Pages
         IWebElement username => driver.FindElement(By.Id("user-name"));
         IWebElement password => driver.FindElement(By.Id("password"));
         IWebElement loginBtn => driver.FindElement(By.Id("login-button"));
+        IWebElement errMsg => driver.FindElement(By.CssSelector("h3[data-test='error']"));
 
         public void EnterUserName(string name)
         {
@@ -30,6 +31,10 @@ namespace SauceDemoAutomation.Pages
         public void ClickLoginBtn()
         {
             loginBtn.Click();
+        }
+        public string GetErrorMessage()
+        {
+            return errMsg.Text;
         }
     }
 }
